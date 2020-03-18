@@ -19,14 +19,14 @@ export default class List extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="col-12 col-md-8 col-lg-6">
         <h3>Todos</h3>
         <Form add={this.addToList} />
-        <table>
-          <thead>
+        <table className="table table-bordered my-4">
+          <thead className="thead-dark">
             <tr>
-              <th>Title</th>
-              <th>Description</th>
+              <th scope="col">Title</th>
+              <th scope="col">Description</th>
             </tr>
           </thead>
           <tbody>
@@ -39,7 +39,7 @@ export default class List extends React.Component {
             ))}
           </tbody>
         </table>
-      </>
+      </div>
     );
   }
 }

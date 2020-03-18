@@ -24,23 +24,31 @@ export default class Form extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <div>
+        <div className="form-group">
           <label>Title</label>
           <input
             name="title"
+            className="form-control"
             value={this.state.title}
             onChange={this.handleChange}
           />
         </div>
-        <div>
+        <div className="form-group">
           <label>Description</label>
           <textarea
+            className="form-control"
             name="description"
             value={this.state.description}
             onChange={this.handleChange}
           ></textarea>
         </div>
-        <button>Add</button>
+        <button
+          type="submit"
+          className="btn btn-outline-primary "
+          style={{ fontWeight: "bold" }}
+        >
+          Add
+        </button>
       </form>
     );
   }
