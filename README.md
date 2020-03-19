@@ -72,4 +72,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ![alt text][image]
 
-[image]: https://github.com/ruusunentoni/Todos/src/img/Screenshot.png "Todo app image"
+[image]: https://github.com/ruusunentoni/Todos/blob/master/src/img/Screenshot.PNG "Todo app image"
