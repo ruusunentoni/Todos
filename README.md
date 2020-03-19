@@ -70,6 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Todo app
 
-![alt text] [image]
+![alt text][image]
 
-[image]: ./img/Capture.png "Todo app image"
+[image]: .\img\Capture.PNG "Todo app image"
