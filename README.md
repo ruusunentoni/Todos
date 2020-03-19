@@ -67,9 +67,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
 
-
 ### Todo app
 
-![alt text][image]
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<!-- ![alt text][image] -->
+<img src="https://github.com/ruusunentoni/Todos/blob/master/src/img/Screenshot.PNG" alt="Todo app screenshot" width="500" />
 
 [image]: https://github.com/ruusunentoni/Todos/blob/master/src/img/Screenshot.PNG "Todo app image"
